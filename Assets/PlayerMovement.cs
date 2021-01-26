@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
+    public Light flashLight;
 
     public float speed = 12f;
     public float jumpHeight = 1f;
@@ -20,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
         var isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
@@ -31,6 +31,11 @@ public class PlayerMovement : MonoBehaviour
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity * weight);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            flashLight.enabled = !flashLight.enabled;
         }
 
         float x = Input.GetAxis("Horizontal");
