@@ -443,7 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8367730bb6ed6fd4880f132f18c88a8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 400
   playerBody: {fileID: 921661184788510296}
 --- !u!1 &921661184719236428
 GameObject:
@@ -645,11 +645,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63c3d190c0aa63479fd6daf8dcfffe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goals: {fileID: 921661184788510298}
   controller: {fileID: 921661184788510297}
   flashLight: {fileID: 2657188575911788038}
   speed: 12
-  jumpHeight: 3
-  weight: 100
+  jumpHeight: 50
+  weight: 50
   groundCheck: {fileID: 921661183747180095}
   groundDistance: 1
   groundMask:
@@ -840,7 +841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -452.19998, y: 16}
+  m_AnchoredPosition: {x: -421, y: 6}
   m_SizeDelta: {x: -925.40015, y: 356.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &921661185105364808
@@ -897,7 +898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7278757804288709551
 Transform:
   m_ObjectHideFlags: 0
@@ -919,7 +920,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5539240900815996578}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0

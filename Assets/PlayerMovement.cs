@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public PlayerGoals goals;
+
     public CharacterController controller;
     public Light flashLight;
 
@@ -17,6 +19,13 @@ public class PlayerMovement : MonoBehaviour
 
     float gravity = -9.81f;
     Vector3 velocity;
+
+    private void Start()
+    {
+        goals.AddGoal("Get up!");
+        goals.AddGoal("Turn on flashlight");
+    }
+
 
     // Update is called once per frame
     void Update()
@@ -36,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             flashLight.enabled = !flashLight.enabled;
+            goals.CompleteGoal("Turn on flashlight");
         }
 
         float x = Input.GetAxis("Horizontal");
