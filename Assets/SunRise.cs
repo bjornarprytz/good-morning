@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class SunRise : MonoBehaviour
 {
-    Vector3 rotation = new Vector3(-0.04f, 0, 0);
+    public float speed = 12f;
+
 
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.Rotate(rotation);
+        Vector3 rotation = new Vector3(-speed, 0, 0);
+        
+        gameObject.transform.Rotate(rotation * Time.deltaTime);
     }
 }

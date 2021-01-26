@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 208379068}
   - component: {fileID: 208379067}
   - component: {fileID: 208379066}
-  - component: {fileID: 208379070}
   - component: {fileID: 208379069}
   m_Layer: 0
   m_Name: Main Camera
@@ -222,18 +221,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   playerBody: {fileID: 1109103685}
---- !u!114 &208379070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 208379065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c63c3d190c0aa63479fd6daf8dcfffe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &764902699
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,6 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109103685}
   - component: {fileID: 1109103684}
+  - component: {fileID: 1109103686}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -366,6 +354,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1109103686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109103683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63c3d190c0aa63479fd6daf8dcfffe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1109103684}
+  speed: 12
 --- !u!1 &1629091824
 GameObject:
   m_ObjectHideFlags: 0
