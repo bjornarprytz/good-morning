@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176562040766722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Living Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 8816176562068394668}
   - component: {fileID: 8816176562068394669}
   - component: {fileID: 8816176562068394658}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1631,7 +1631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176562174440719}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1646,7 +1646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8816176562174440716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -80.4032, y: -7.118, z: 43.517097}
+  m_LocalPosition: {x: -0.4032, y: -7.118, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8816176562068394659}
@@ -1662,7 +1662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176562431484863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Inner Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1698,7 +1698,7 @@ GameObject:
   - component: {fileID: 8816176562707797883}
   - component: {fileID: 8816176562707797880}
   - component: {fileID: 8816176562707797881}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2185,7 +2185,7 @@ GameObject:
   - component: {fileID: 8816176562778999009}
   - component: {fileID: 8816176562778999014}
   - component: {fileID: 8816176562778999015}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2515,7 +2515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176562813709685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: East Hallway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2546,7 +2546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176562825447347}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bedroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2577,7 +2577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176562905050603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: West Hallway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2614,7 +2614,7 @@ GameObject:
   - component: {fileID: 8816176563193993233}
   - component: {fileID: 8816176563193993238}
   - component: {fileID: 8816176563193993239}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3253,7 +3253,7 @@ GameObject:
   - component: {fileID: 8816176563265806761}
   - component: {fileID: 8816176563265806766}
   - component: {fileID: 8816176563265806767}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4267,7 +4267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176563271432384}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Outer Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4298,7 +4298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176563351641810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Foundation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4313,7 +4313,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8816176563351641811}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -80.4032, y: -10.362299, z: 43.517097}
+  m_LocalPosition: {x: -0.4032, y: -10.362299, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8816176563990979108}
@@ -4334,7 +4334,7 @@ GameObject:
   - component: {fileID: 8816176563543934688}
   - component: {fileID: 8816176563543934689}
   - component: {fileID: 8816176563543934694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4930,7 +4930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176563557749734}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4963,7 +4963,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176563583902587}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: First Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4978,7 +4978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8816176563583902584}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -86.34105, y: -20.379856, z: 43.446606}
+  m_LocalPosition: {x: -6.34105, y: -20.379856, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8816176563747835175}
@@ -5004,7 +5004,7 @@ GameObject:
   - component: {fileID: 8816176563611517278}
   - component: {fileID: 8816176563611517279}
   - component: {fileID: 8816176563611517276}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5790,7 +5790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176563747835175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bathroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5821,7 +5821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8816176563814962134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Computer Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5857,7 +5857,7 @@ GameObject:
   - component: {fileID: 8816176563916721485}
   - component: {fileID: 8816176563916721474}
   - component: {fileID: 8816176563916721475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6648,7 +6648,7 @@ GameObject:
   - component: {fileID: 8816176563990979105}
   - component: {fileID: 8816176563990979110}
   - component: {fileID: 8816176563990979111}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
